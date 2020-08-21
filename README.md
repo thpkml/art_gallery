@@ -8,6 +8,5 @@ Since the site is purely informational, it can afford to be simple.
 ## Who
 This is aimed especially at students starting in front end web-development. With a bit of extra works here and there, it can even be used as a simple art portfolio to publish online!
 ## Usage
-Feel free to use the codes as you like. Share if someone needs it. 
----
+Feel free to use the codes as you like. Share if someone needs it.  
 **MIT License**
