@@ -1,0 +1,246 @@
+/*===STYLE COMMON TO ALL PAGES - BEGIN===*/
+html,body{
+    height:100%;
+}
+body{
+	margin: 0;
+    background-color:#;
+	font-family: verdana, calibri, arial, sans-serif;
+    font-weight: lighter;
+    height: auto;
+}
+
+header {
+	background: #7374ae;
+    background: linear-gradient(rgba(115, 116, 174, 0.9), #7374ae);
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer {
+    background-color: #111;
+    text-align:center;
+    color: #bbb;
+    padding: 25px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}  
+
+h1,h2,h3,h4,h5,h6{
+	font-family: montseratt, calibri, arial, sans-serif;
+}
+p{
+	color: black;
+    text-align: justify; 
+    padding: 20px 40px 20px 40px;
+}
+.paragraphborder{
+    border: 1px dotted black;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.menubar{
+    background-color: #111;
+    background: linear-gradient(#111, #333);
+    overflow: hidden; 
+    position: fixed;
+    top: 80px;
+    width: 100%;
+/* hidden overflow will make menubar fill the width */
+}
+div.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menubar a {
+    float: left;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menubar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.menubar a.active {
+    background-color: #7374ae;
+    color: white;
+}
+/*STYLE COMMON TO ALL PAGES - END ======*/
+/*=====STYLE FOR ARTISTS PAGE - BEGIN=====*/
+div.gallery {
+    border: 1px solid #333;
+}
+
+div.gallery:hover {
+    border: 1px solid #7374ae;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+}
+
+div.gallery iframe {
+	width: 100%;
+    height: 200px;
+    max-height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+address {
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+    color: #444;
+    font-weight: 600;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 23%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*=====STYLE FOR ARTISTS PAGE - END=====*/
+
+/*====STYLE FOR TIMES & TICKETS PAGE - START ======*/
+
+table {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    
+}
+tr, td, th {
+	border:1px solid white;
+    padding: 6px;
+    }
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+/*====STYLE FOR TIMES & TICKETS PAGE - END ======*/
+
+/*===== MISCELLANEOUS STYLES USED THROUGHOUT THE SITE ===*/
+.contactform {
+    float: left;
+    width:100%;
+    background-color: #444;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    color: #fff;     
+}
+
+.bodyh2 {
+    background-color: #666;
+    padding: 20px;
+}
+
+
+.aboutartist1 {
+    float: left;
+    height: 250px;
+    max-width: 55%;
+    max-height: 250px;
+    background-color: #555;
+}
+
+.aboutartist {
+    padding: 20px 0px;
+}
+
+.building {
+    float: left;
+    height: 350px;
+    max-width: 35%;
+    max-height: 500px;
+    background-color: #555;
+    overflow-y: scroll;
+}
+
+.button {
+    background-color: #7374ae;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #ddd;
+    color: #4e4f87;
+    font-weight: 600;
+    text-decoration: underline;
+    box-shadow: 3px 5px 10px #111;
+}
+form input[type=text],textarea{
+    width:100%;
+    padding:10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+form input[type=submit]{
+    width: 100%;
+    padding:20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7374ae
+}
+form input[type=submit]:hover{
+    color: white;
+    background-color: #4e4f87;
+    border: 1px solid black;
+}
+
+
+#contactfrom1 {
+    text-align: left;
+    line-height: 2em;
+}
+
+.address {
+    float: left;
+    text-align: center;
+    padding: 15px 0px 0px 20px;
+    width: 30%;
+}
